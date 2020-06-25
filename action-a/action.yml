@@ -3,15 +3,15 @@ description: "Greet Someone"
 author: "github.training@github.com"
 
 inputs:
-  MY_NAME: 
+  MY_NAME:
     description: "Who to greet?"
     required: true
     default: "World!"
 
-runs: 
-  using: "docker",
+runs:
+  using: "docker"
   image: "Dockerfile"
 
-branding: 
-  icon: "mic",
+branding:
+  icon: "mic"
   color: "purple"
