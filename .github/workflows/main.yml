@@ -1,0 +1,12 @@
+name: A WORKFLOW for my Hello world action file
+on: push
+
+jobs:
+  build:
+    name: Hello world action (JOB)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./action-a
+        with:
+          MY_NAME: "Aparichit"
